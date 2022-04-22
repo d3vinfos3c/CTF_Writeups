@@ -124,7 +124,7 @@
     ```
 - We can emulate the Android package with [Anbox](https://anbox.io/).
 - We can also interface with that emultaor using [adb](https://developer.android.com/studio/command-line/adb).
-- This has us at a good spot. We can not look at source, disassemble byte-code, emulate the package, and interact with the emulator / application.
+- This has us at a good spot. We can now look at source, disassemble byte-code, emulate the package, and interact with the emulator / application.
   
 ## Setup 
 - We install the tools via the steps supplied on the sites we visited.
