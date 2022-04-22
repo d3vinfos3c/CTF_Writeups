@@ -162,4 +162,7 @@
 - Now we can iterate through the indexes of the flag and try each character until all indexes reflect `1` or we are given some sort of `success` message in the logs.
 - Luckily [pwntools](https://docs.pwntools.com/en/stable/adb.html) has an adb framework baked in that we can use.
 - Next we create a program to interact with the application to change the flag, check it, then repeat the process over and over until it is correct!
+
+    ![solved](images/solved.png)
+
 - I came up with three iterative solutions (`slow_solpy`, `fast_sol.py`, `fastest_sol.py`).
