@@ -1,4 +1,4 @@
-# DCTF 2022 - UseForce writeup
+# DCTF 2022 - UseForce
 
 ## Introduction
  - We are given a file, `app-release.apk` and a hint: `'Are Dragons Bulletproof?'`.
@@ -162,4 +162,4 @@
 - Now we can iterate through the indexes of the flag and try each character until all indexes reflect `1` or we are given some sort of `success` message in the logs.
 - Luckily [pwntools](https://docs.pwntools.com/en/stable/adb.html) has an adb framework baked in that we can use.
 - Next we create a program to interact with the application to change the flag, check it, then repeat the process over and over until it is correct!
-- I came up with three iterative solutions (`slow_solpy`, `fast_sol.py`, `fastest_sol.py`). Feel free to look through them.
+- I came up with three iterative solutions (`slow_solpy`, `fast_sol.py`, `fastest_sol.py`).
